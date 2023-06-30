@@ -1,3 +1,4 @@
+import React, { Component }  from 'react';
 import Navbar from "./components/Navbar/Navbar";
 import Intro from "./components/Intro/Intro";
 import Services from "./components/Services/Services";

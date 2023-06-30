@@ -13,16 +13,57 @@
   flex-direction: column;
   width: 100%;
   margin-top: 4rem;
-  gap: 4rem;
+  padding-bottom: 50px;
+  gap: 2rem;
   color: white;
 }
 .f-icons {
   display: flex;
   gap: 2rem;
+  size: 15rem;
 }
 
 @media screen and (max-width: 480px){
   .f-content{
     transform: scale(.5);
   }
+}
+/* icons css */
+.social-container {
+  background: #eee;
+  padding: 10px 10px;
+  border-radius: 20px;
+  
+}
+a.social {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+ 
+  
+}
+.media{
+  display: flex;
+  justify-content: space-around;
+}
+a.social:hover {
+  transform: translateY(-2px);
+}
+a.youtube {
+  color: #eb3223;
+}
+
+a.facebook {
+  color: #4968ad;
+}
+
+a.twitter {
+  color: #49a1eb;
+}
+
+a.instagram {
+  color: black;
+}
+a.Github {
+  color: black;
 }
